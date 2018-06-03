@@ -1,0 +1,27 @@
+{
+  "name": "ismygateway-online",
+  "version": "1.0.0",
+  "description": "Super simple gateway monitoring for The Things Network",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttn-zh/ismygateway-online.git"
+  },
+  "author": "Gonzalo Casas <gonzalocasas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttn-zh/ismygateway.online/issues"
+  },
+  "homepage": "https://github.com/ttn-zh/ismygateway.online#readme",
+  "dependencies": {
+    "micro": "^9.3.2",
+    "now-env": "^3.0.4"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
