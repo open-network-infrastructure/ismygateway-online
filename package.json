@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ttn-zh/ismygateway.online#readme",
   "dependencies": {
     "micro": "^9.3.2",
+    "node-fetch": "^2.1.2",
     "now-env": "^3.0.4"
   },
   "devDependencies": {
