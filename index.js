@@ -20,7 +20,7 @@ async function newMonitor (gatewayEui, uptimeRobotApi) {
   params.append('api_key', uptimeRobotApi)
   params.append('format', 'json')
   params.append('type', '1')
-  params.append('url', 'https://ismygateway.online/?eui=' + gatewayEui)
+  params.append('url', 'https://api.ismygateway.online/?eui=' + gatewayEui)
   params.append('friendly_name', 'TTN GW: ' + gatewayEui)
 
   const response = await fetch(UPTIME_ROBOT_NEW_MONITOR, { method: 'POST', body: params })
